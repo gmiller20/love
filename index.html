@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша история — сайт о любви</title>
+    <meta name="description"
+        content="Романтический шаблон сайта про отношения: история любви, фотогалерея, таймлайн, любовные цитаты и форма для признания.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Прелоадер -->
+    <div class="preloader" id="preloader">
+        <div class="preloader__heart" aria-hidden="true">
+            <svg viewBox="0 0 32 29" width="64" height="58">
+                <path
+                    d="M16 29S0 18.5 0 8.5C0 3.8 3.8 0 8.5 0 11.6 0 14.2 1.7 16 4.3 17.8 1.7 20.4 0 23.5 0 28.2 0 32 3.8 32 8.5 32 18.5 16 29 16 29z" />
+            </svg>
+        </div>
+    </div>
+
+    <!-- Фоновые летающие сердечки -->
+    <div class="hearts-bg" id="heartsBg" aria-hidden="true"></div>
+
+    <!-- Навигация -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav__logo">
+                <span class="nav__logo-icon">♥</span>
+                <span>Наша история</span>
+            </a>
+            <button class="nav__burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav__list" id="navList">
+                <li><a href="#story" class="nav__link">История</a></li>
+                <li><a href="#timeline" class="nav__link">Хроника</a></li>
+                <li><a href="#gallery" class="nav__link">Галерея</a></li>
+                <li><a href="#quotes" class="nav__link">Цитаты</a></li>
+                <li><a href="#future-letter" class="nav__link nav__link--cta">Письмо в будущее</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Герой -->
+        <section class="hero" id="hero">
+            <div class="hero__overlay"></div>
+            <div class="hero__content container">
+                <p class="hero__eyebrow">Герман и Айсиль</p>
+                <h1 class="hero__title">
+                    Каждая любовь —
+                    <span class="hero__title-accent">это целая вселенная</span>
+                </h1>
+                <p class="hero__subtitle">
+                    Здесь начинается наша история. Место, где можно сохранить самые
+                    тёплые моменты, слова и обещания, которые мы подарили друг другу.
+                </p>
+                <div class="hero__actions">
+                    <a href="#story" class="btn btn--primary">Наша история</a>
+                    <a href="#future-letter" class="btn btn--ghost">Письмо в будущее</a>
+                </div>
+                <div class="hero__scroll">
+                    <span>Листайте вниз</span>
+                    <div class="hero__scroll-line"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- История -->
+        <section class="story section" id="story">
+            <div class="container story__grid">
+                <div class="story__text reveal">
+                    <p class="section__eyebrow">Глава первая</p>
+                    <h2 class="section__title">Как всё началось</h2>
+                    <p class="story__paragraph">
+                        Иногда самое важное в жизни начинается с обычного «привет». С короткого сообщения на сайте
+                        знакомств, отправленного
+                        скорее от скуки, чем с надеждой. Мы тогда и подумать не могли, что за этим «привет» потянется
+                        цепочка вечеров,
+                        растянувшихся до утра, и разговоров, в которых время растворяется незаметно.
+                    </p>
+                    <p class="story__paragraph">
+                        Мы переписывались долго — дни, которые складывались в недели. Сначала осторожно, примеряясь
+                        друг к другу, потом всё
+                        смелее — шутки, ночные откровения, голосовые сообщения, которые переслушиваешь по два раза.
+                    </p>
+                    <p class="story__paragraph">
+                        А потом мы встретились.
+                    </p>
+                    <p class="story__paragraph">
+                        Экопарк в тот день был почти пустым — редкие прохожие, шорох листвы под ногами, солнце,
+                        пробивающееся сквозь кроны. Мы
+                        гуляли часами, сворачивая с дорожек куда-то в сторону, и говорили, говорили, говорили — так,
+                        будто наверстывали всё то
+                        время, что провели за экранами. Смеялись над какой-то ерундой, замолкали одновременно, и в этих
+                        паузах было больше
+                        смысла, чем в любых словах.
+                    </p>
+                    <p class="story__paragraph">
+                        Потом было кафе — маленькое, уютное. Мы сидели в обнимку на диванчике, и я ловил себя на
+                        мысли, что не хочу, чтобы этот день заканчивался. Что готов сидеть здесь бесконечно, лишь бы она
+                        не уходила.
+                    </p>
+                    <p class="story__paragraph">
+                        Первый поцелуй случился на скамейках на площади. Неловко, неожиданно — и абсолютно
+                        правильно. В этот же момент, глядя на неё, я понял, что больше не могу это держать в себе, и
+                        сказал то самое, что
+                        говорят только раз в жизни
+                        по-настоящему: «Я тебя люблю». И услышал в ответ то же самое.
+                    </p>
+                    <p class="story__paragraph">
+                        Так это и началось. С обычного «привет» — и стало тем, что невозможно объяснить словами. Только
+                        почувствовать.
+                    </p>
+                    <div class="story__stats">
+                        <div class="stat">
+                            <span class="stat__number" data-start-date="2026-07-09">0</span>
+                            <span class="stat__label">дней вместе</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-counter="1">0</span>
+                            <span class="stat__label">большая любовь</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="story__visual reveal" data-delay="150">
+                    <div class="story__frame">
+                        <div class="story__image" role="img" aria-label="Романтический силуэт пары на закате"></div>
+                        <div class="story__badge">
+                            <svg viewBox="0 0 32 29" width="22" height="20" aria-hidden="true">
+                                <path
+                                    d="M16 29S0 18.5 0 8.5C0 3.8 3.8 0 8.5 0 11.6 0 14.2 1.7 16 4.3 17.8 1.7 20.4 0 23.5 0 28.2 0 32 3.8 32 8.5 32 18.5 16 29 16 29z" />
+                            </svg>
+                            <span>Навсегда</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Таймлайн -->
+        <section class="timeline section" id="timeline">
+            <div class="container">
+                <div class="section__head reveal">
+                    <p class="section__eyebrow">Глава вторая</p>
+                    <h2 class="section__title">Наша хроника</h2>
+                    <p class="section__lead">Моменты, из которых сложилась наша история.</p>
+                </div>
+                <ol class="timeline__list">
+                    <li class="timeline__item reveal">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <time class="timeline__date">21 июля</time>
+                            <h3 class="timeline__title">Первая встреча</h3>
+                            <p class="timeline__text">Тихий парк, уютное кафе, квас и признание</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item timeline__item--right reveal" data-delay="100">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <time class="timeline__date">3 августа</time>
+                            <h3 class="timeline__title">Интересное свидание</h3>
+                            <p class="timeline__text">Совместный поход по магазинам одежды, приятное времяпровождение в кафе, любовь и забота</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item reveal" data-delay="200">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <time class="timeline__date">11 августа</time>
+                            <h3 class="timeline__title">Развлечения в аквапарке</h3>
+                            <p class="timeline__text">Опасные горки, вкусная еда, смех и теплое общение в воде</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item timeline__item--right reveal" data-delay="100">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <time class="timeline__date">18 августа</time>
+                            <h3 class="timeline__title">Романтическая фотосессия</h3>
+                            <p class="timeline__text">Крутая корейская кафешка, классные фото и взгляды друг на друга</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item reveal" data-delay="200">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <time class="timeline__date">26 августа</time>
+                            <h3 class="timeline__title">Прощание</h3>
+                            <p class="timeline__text">Последняя встреча, наполненная эмоциями и воспоминаниями</p>
+                        </div>
+                    </li>
+                    <li class="timeline__item timeline__item--right reveal" data-delay="300">
+                        <span class="timeline__dot"></span>
+                        <div class="timeline__card">
+                            <time class="timeline__date">Сегодня</time>
+                            <h3 class="timeline__title">И это только начало</h3>
+                            <p class="timeline__text">Впереди ещё множество глав, которые мы напишем вместе.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Галерея -->
+        <section class="gallery section" id="gallery">
+            <div class="container">
+                <div class="section__head reveal">
+                    <p class="section__eyebrow">Глава третья</p>
+                    <h2 class="section__title">Моменты, которые мы храним</h2>
+                </div>
+                <div class="gallery__grid reveal">
+                    <figure class="gallery__item gallery__item--tall">
+                        <div class="gallery__media gallery__media--one"></div>
+                        <figcaption class="gallery__caption">Наше первое семейное фото</figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+                        <div class="gallery__media gallery__media--two"></div>
+                        <figcaption class="gallery__caption">Аквапарк</figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+                        <div class="gallery__media gallery__media--three"></div>
+                        <figcaption class="gallery__caption">Любовь в кафе</figcaption>
+                    </figure>
+                    <figure class="gallery__item gallery__item--wide">
+                        <div class="gallery__media gallery__media--four"></div>
+                        <figcaption class="gallery__caption">Доказательство нашей любви</figcaption>
+                    </figure>
+                    <figure class="gallery__item">
+                        <div class="gallery__media gallery__media--five"></div>
+                        <figcaption class="gallery__caption">Любимый подарок от Айсиль</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Цитаты -->
+        <section class="quotes section" id="quotes">
+            <div class="container quotes__inner">
+                <div class="section__head section__head--center reveal">
+                    <p class="section__eyebrow">Глава четвёртая</p>
+                    <h2 class="section__title">Слова о любви</h2>
+                </div>
+                <div class="quotes__slider reveal">
+                    <button class="quotes__arrow" id="prevQuote" aria-label="Предыдущая цитата">&#8592;</button>
+                    <div class="quotes__stage">
+                        <blockquote class="quote">
+                            <p class="quote__text">«Мое место там, где ты».</p>
+                            <cite class="quote__author">— Сказано шёпотом</cite>
+                        </blockquote>
+                        <blockquote class="quote is-active">
+                            <p class="quote__text">«Каждый раз, когда ты рядом, я чувствую тепло».</p>
+                            <cite class="quote__author">— Айсиль</cite>
+                        </blockquote>
+                        <blockquote class="quote">
+                            <p class="quote__text">«Я всегда буду любить тебя где бы ты ни была и сколько бы времени не прошло».
+                            </p>
+                            <cite class="quote__author">— Из разговоров перед сном</cite>
+                        </blockquote>
+                    </div>
+                    <button class="quotes__arrow" id="nextQuote" aria-label="Следующая цитата">&#8594;</button>
+                </div>
+                <div class="quotes__dots" id="quoteDots"></div>
+            </div>
+        </section>
+
+        <!-- Письмо в будущее -->
+        <section class="future-letter section" id="future-letter">
+            <div class="container future-letter__container">
+                <div class="section__head section__head--center reveal">
+                    <p class="section__eyebrow">Глава пятая</p>
+                    <h2 class="section__title">Письмо в будущее</h2>
+                    <p class="section__lead">
+                        Несколько слов о нашей любви — письмо можно открыть в любой момент.
+                    </p>
+                </div>
+                <div class="letter reveal">
+                    <div class="letter__seal" aria-hidden="true">♥</div>
+                    <p class="letter__label">Нажми, если сильно любишь</p>
+                    <button class="btn btn--primary letter__button" id="openLetter" type="button">
+                        Открыть письмо
+                    </button>
+                    <article class="letter__message" id="letterMessage" hidden>
+                        <h3>Моей любимой Айсиль</h3>
+                        <p>
+                            Моя дорогая,
+                        </p>
+                        <p>
+                            Наконец-то этот день настал — мы снова вместе. После стольких дней разлуки, после всех этих сообщений, звонков и часов
+                            ожидания я снова вижу твои глаза, слышу твой голос, чувствую твоё тепло.
+                        </p>
+                        <p>
+                            Расстояние казалось бесконечным, но оно лишь подчеркнуло, насколько ты важна для меня. Каждая минута вдали от тебя
+                            напоминала мне, как сильно я тебя ценю. А теперь, когда ты рядом, мир снова стал цельным, полным и по-настоящему
+                            счастливым.
+                        </p>
+                        <p>
+                            Спасибо, что ты есть. Спасибо, что дождалась. Спасибо, что ты — это ты.
+                        </p>
+                        <p>
+                            Я так счастлив, что мы снова вместе.
+                        </p>
+                        <p>
+                            Люблю тебя безмерно!
+                        </p>
+                        <p class="letter__signature">Твой Гера ♥</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__brand">♥ Наша история</p>
+            <p class="footer__text">Сделано с любовью.</p>
+            <p class="footer__copy">&copy; <span id="year"></span> Все права защищены</p>
+        </div>
+    </footer>
+
+    <!-- Кнопка наверх -->
+    <button class="to-top" id="toTop" aria-label="Наверх">&#8593;</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
