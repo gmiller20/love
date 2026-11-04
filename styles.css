@@ -219,7 +219,7 @@ img, svg { display: block; max-width: 100%; }
 }
 .story__image {
   position: relative; z-index: 1; aspect-ratio: 4 / 5; border-radius: var(--radius);
-  background: url(/photos/1.jpg) center / cover no-repeat;
+  background: url("photos/1.jpg") center / cover no-repeat;
   box-shadow: var(--shadow);
   overflow: hidden;
 }
@@ -280,11 +280,11 @@ img, svg { display: block; max-width: 100%; }
   content: ''; position: absolute; inset: 0;
   background: linear-gradient(180deg, transparent 45%, rgba(30, 12, 22, .72));
 }
-.gallery__media--one { background: url(/photos/moments/photo_1.jpg) center / cover no-repeat; }
-.gallery__media--two { background: url(/photos/moments/photo_2.jpg) center / cover no-repeat; }
-.gallery__media--three { background: url(/photos/moments/photo_3.jpg) center / cover no-repeat; }
-.gallery__media--four { background: url(/photos/moments/photo_4.jpg) center / cover no-repeat; }
-.gallery__media--five { background: url(/photos/moments/photo_5.jpg) center / cover no-repeat; }
+.gallery__media--one { background: url("photos/moments/photo_1.jpg") center / cover no-repeat; }
+.gallery__media--two { background: url("photos/moments/photo_2.jpg") center / cover no-repeat; }
+.gallery__media--three { background: url("photos/moments/photo_3.jpg") center / cover no-repeat; }
+.gallery__media--four { background: url("photos/moments/photo_4.jpg") center / cover no-repeat; }
+.gallery__media--five { background: url("photos/moments/photo_5.jpg") center / cover no-repeat; }
 .gallery__caption {
   position: absolute; z-index: 2; bottom: 1.1rem; left: 1.2rem; right: 1.2rem;
   color: #fff; font-family: var(--font-display); font-size: 1.15rem;
